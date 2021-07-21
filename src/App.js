@@ -1,11 +1,11 @@
 // import logo from './logo.svg';
 import "./App.css";
-import HeaderSatu from "./HeaderSatu";
+import HeaderSatu from "./HeaderSatu.js";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Ini Aplikasi React Pertama Saya</h1>
+      <HeaderSatu />
     </div>
   );
 };
