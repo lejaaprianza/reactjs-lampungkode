@@ -1,6 +1,6 @@
 import React from "react";
 
-const HeaderSatu = () => {
+const headerSatu = () => {
   return (
     <div>
       <h1>Ini Aplikasi React Pertama Saya</h1>
@@ -8,4 +8,4 @@ const HeaderSatu = () => {
   );
 };
 
-export default HeaderSatu;
+export default headerSatu;
