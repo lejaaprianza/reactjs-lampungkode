@@ -1,10 +1,10 @@
 import "./App.css";
-import headerSatu from "./headerSatu.js";
+import HeaderClass from "./HeaderClass";
 
 const App = () => {
   return (
     <div className="App">
-      <headerSatu />
+      <HeaderClass />
     </div>
   );
 };
