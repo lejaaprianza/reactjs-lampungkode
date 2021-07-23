@@ -1,10 +1,11 @@
 import "./App.css";
-import HeaderClass from "./HeaderClass";
+import { NormalExport1, NormalExport2 } from "./NormalExport";
 
 const App = () => {
   return (
     <div className="App">
-      <HeaderClass />
+      <NormalExport1 />
+      <NormalExport2 />
     </div>
   );
 };
