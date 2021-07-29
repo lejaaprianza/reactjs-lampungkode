@@ -1,10 +1,18 @@
 import "./App.css";
-import ExportDefault, { NormalExport } from "./ExportDefault";
+
 const App = () => {
   return (
     <div className="App">
-      <ExportDefault />
-      <NormalExport />
+      <Welcome nama="Lampung Kode" />
+      <Welcome nama="Leja Aprianza" />
+    </div>
+  );
+};
+
+const Welcome = (props) => {
+  return (
+    <div className="App">
+      <h1>Selamat Datang {props.nama}</h1>
     </div>
   );
 };
