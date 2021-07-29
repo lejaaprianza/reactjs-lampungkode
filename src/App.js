@@ -1,18 +1,14 @@
 import "./App.css";
+import {
+  FunctionalComponent1,
+  FunctionalComponent2,
+} from "./components/FunctionalComponent";
 
 const App = () => {
   return (
     <div className="App">
-      <Welcome nama="Lampung Kode" />
-      <Welcome nama="Leja Aprianza" />
-    </div>
-  );
-};
-
-const Welcome = (props) => {
-  return (
-    <div className="App">
-      <h1>Selamat Datang {props.nama}</h1>
+      <FunctionalComponent1 />
+      <FunctionalComponent2 />
     </div>
   );
 };
