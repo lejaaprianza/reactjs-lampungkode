@@ -5,12 +5,7 @@ import {
 } from "./components/FunctionalComponent";
 
 const App = () => {
-  return (
-    <div className="App">
-      <FunctionalComponent1 />
-      <FunctionalComponent2 />
-    </div>
-  );
+  return <div className="App"></div>;
 };
 
 export default App;
