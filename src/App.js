@@ -1,27 +1,21 @@
 import "./App.css";
 
-export const panggilFungsi = () => {
+const PanggilFungsi = () => {
   console.log("selamat datang");
-  return "tes";
 };
 
-const panggilFungsiParam = (nama) => {
+const PanggilFungsiParam = (nama) => {
   console.log("ini ", nama);
 };
 
 const App = () => {
   return (
     <div className="App">
-      {/* {panggilFungsi()} */}
       <button onClick={() => console.log("tes console log")}>
         tombol console log
       </button>
-      <button onClick={panggilFungsi}>Panggil fungsi</button>
-      <button
-        onClick={() => {
-          panggilFungsiParam("Budi");
-        }}
-      >
+      <button onClick={PanggilFungsi}>Panggil fungsi</button>
+      <button onClick={() => PanggilFungsiParam("Budi")}>
         Panggil fungsi dengan parameter
       </button>
     </div>
